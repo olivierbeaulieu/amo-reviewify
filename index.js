@@ -1,5 +1,6 @@
 var through = require('through2');
 var filendir = require('filendir');
+var path = require('path');
 
 module.exports = function(options){
 	options = options || {};
